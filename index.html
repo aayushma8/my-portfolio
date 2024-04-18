@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aayushma</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" defer src="/main.js"></script>
+  </head>
+  <body class="text-white px-2 lg:px-0 bg-gradient-to-r from-black via-gray-800 to-black">
+    <div id="main">
+      <!-- Socials Icons  -->
+      <div
+        id="socialIcons"
+        class="hidden lg:flex flex-col items-center justify-center fixed top-[40%] left-0 bg-transparent text-right"
+      >
+        <ul>
+          <a href="https://www.linkedin.com/in/aayushma-bhusal-4870aa265/" target="_blank"
+            ><li
+              class="flex items-center justify-between h-10 w-40 px-4 pt-1 ml-[-110px] hover:ml-[-10px] duration-300 hover:rounded-xl bg-[#6b7280] rounded-tr-lg"
+            >
+              LinkedIn
+              <span class="h-full"
+                ><i class="ri-linkedin-box-fill text-2xl"></i
+              ></span></li
+          ></a>
+          <a href="https://github.com/aayushmabhusal8" target="_blank"
+            ><li
+              class="flex items-center justify-between h-10 w-40 px-4 ml-[-110px] hover:ml-[-10px] duration-300 hover:rounded-xl bg-[#6b7280]"
+            >
+              Github
+              <span class="h-full"
+                ><i class="ri-github-fill text-2xl"></i
+              ></span></li
+          ></a>
+          <a href="mailto:aayushmab16@gmail.com" target="_blank"
+            ><li
+              class="flex items-center justify-between h-10 w-40 px-4 ml-[-110px] hover:ml-[-10px] duration-300 hover:rounded-xl bg-[#6b7280]"
+            >
+              Email
+              <span class="h-full"
+                ><i class="ri-mail-fill text-[22px]"></i
+              ></span></li
+          ></a>
+          <a href="https://twitter.com/marla20093701" target="_blank"
+            ><li
+              class=" flex items-center justify-between h-10 w-40 px-4 ml-[-110px] hover:ml-[-10px] duration-300 hover:rounded-xl bg-[#6b7280] rounded-br-lg"
+            >
+              Twitter
+              <span class="h-full"
+                ><i class="ri-twitter-x-fill text-xl"></i
+              ></span></li
+          ></a>
+        </ul>
+      </div>
+     <!-- Page 1  -->
+      <!-- bg-gradient-to-b from-black via-black to-gray-800 -->
+      <div id="home" class="flex flex-col min-h-screen w-full">
+        <!-- mobile navbar  -->
+        <nav
+          class="w-full h-24 flex lg:hidden items-center justify-between px-5"
+        >
+          <div>
+            <h1
+              class="mx-5 text-2xl lg:text-4xl font-bold font-logo tracking-wider"
+              id="logo"
+            >
+              Aayushma
+            </h1>
+          </div>
+          <div class="hamburgerbtn h-full flex items-center justify-center z-20">
+            <i class="ri-menu-line"></i>
+          </div>
+          <div class="hamburgermenu hidden h-screen absolute top-0 left-0 w-full bg-black z-10">
+            <ul class="w-full h-full flex flex-col items-center justify-center">
+              <a href="#home">
+                <li
+                  class="my-5 text-lg duration-100"
+                >
+                  Home
+                </li></a
+              >
+              <a href="#about"
+                ><li
+                  class="my-5 text-lg duration-100"
+                >
+                  About
+                </li></a
+              >
+              <a href="#projects"
+                ><li
+                  class="my-5 text-lg duration-100"
+                >
+                  Project
+                </li></a
+              >
+              <a href="#skills">
+                <li
+                  class="my-5 text-lg duration-100"
+                >
+                  Skills
+                </li></a
+              >
+              <a href="#contact">
+                <li
+                  class="my-5 text-lg duration-100"
+                >
+                  Contacts
+                </li></a
+              >
+            </ul>
+          </div>
+        </nav>
+        
+        <!-- computer navbar  -->
+        <nav
+          class="hidden w-full h-24 lg:flex items-center justify-between px-20 shadow-md"
+        >
+          <h1
+            class="mx-5 text-2xl lg:text-4xl font-bold font-logo tracking-wider"
+            id="logo"
+          >
+            Aayushma
+          </h1>
+          <ul class="flex items-center justify-center">
+            <a href="#home">
+              <li
+                class="mx-5 text-lg cursor-pointer hover:text-mycolor duration-100"
+              >
+                Home
+              </li></a
+            >
+            <a href="#about"
+              ><li
+                class="mx-5 text-lg cursor-pointer hover:text-mycolor duration-100"
+              >
+                About
+              </li></a
+            >
+            <a href="#projects"
+              ><li
+                class="mx-5 text-lg cursor-pointer hover:text-mycolor duration-100"
+              >
+                Project
+              </li></a
+            >
+            <a href="#skills">
+              <li
+                class="mx-5 text-lg cursor-pointer hover:text-mycolor duration-100"
+              >
+                Skills
+              </li></a
+            >
+            <a href="#contact">
+              <li
+                class="mx-5 text-lg cursor-pointer hover:text-mycolor duration-100"
+              >
+                Contacts
+              </li></a
+            >
+          </ul>
+        </nav>
+        <div
+          id="hero"
+          class="max-w-[1240px] mx-auto h-[calc(100vh-96px)] flex flex-col lg:flex-row"
+        >
+          <div
+            id="photo"
+            class="h-full w-full lg:w-1/2 flex items-center justify-center"
+          >
+            <img
+              src="/mypic.jpg"
+              alt="error"
+              class="h-52 w-52 lg:h-96 lg:w-96 rounded-full"
+            />
+          </div>
+          <div
+            id="info"
+            class="h-full w-full lg:w-1/2 flex flex-col items-center lg:items-start justify-center"
+          >
+            <h1
+              class="text-4xl lg:text-6xl font-bold bg-gradient-to-br from-[#cab631] to-[#fadd05] bg-clip-text text-transparent"
+            >
+              Aayushma Bhusal
+            </h1>
+            <p
+              class="my-5 text-lg lg:text-xl text-center lg:text-left text-mutedtext"
+            >
+            As a Computer Science student, I'm deeply passionate about UI/UX design and front-end development. I'm interested in crafting captivating, user-friendly websites. I would love the opportunity to collaborate with you to enhance my skills and contribute to your brand online. Let's create something amazing together!
+            </p>
+            <a href="#contact"
+              ><button
+                class="bg-mycolor p-5 w-40 h-12 rounded-md text-black flex justify-center items-center text-base lg:text-lg font-semibold hover:border-2 border-mycolor hover:bg-transparent hover:text-mycolor duration-150"
+              >
+                Reach Out
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Page 2  -->
+      <!-- bg-gradient-to-b from-gray-800 via-black to-black -->
+      <div
+        id="about"
+        class="flex flex-col items-center justify-center min-h-screen max-w-[1240px] mx-auto"
+      >
+        <h1
+          class="w-full flex justify-center items-center text-3xl lg:text-5xl font-bold my-3"
+        >
+          About
+        </h1>
+        <p
+          class="text-lg lg:text-xl text-center lg:text-left text-mutedtext mt-3"
+        >
+        Hello! I'm Aayushma Bhusal, a Computer Science student with a strong passion for frontend web development. Proficient in HTML, CSS, and JavaScript, I'm currently delving into React. As I explore, I'm drawn to the creative aspects of UI/UX design, seeking to merge innovative design with functional simplicity.
+        </p>
+        <p
+          class="text-lg lg:text-xl text-center lg:text-left text-mutedtext mt-3"
+        >
+        While training in frontend development at sessami.co, I discovered a keen interest in UI/UX design. I'm currently exploring this area to see if it's a good fit for me. For now, I'm focused on working in UI and frontend development to improve my skills and take on new projects.
+        I've explored UI/UX design through YouTube, websites, and the Google Coursera course, using tools like Figma and Adobe Illustrator. I've learned about ideation, wireframing, prototyping, and more.
+        </p>
+      </div>
+      <!-- Page 3  -->
+      <div
+        id="projects"
+        class="flex flex-col items-center justify-center max-w-[1240px] mx-auto min-h-screen "
+      >
+        <h1
+          class="w-full flex justify-center items-center text-3xl lg:text-5xl font-bold my-3"
+        >
+          Projects
+        </h1>
+        <p class="mt-8 mb-12 text-base text-center lg:text-lg  text-mutedtext">
+          These are some projects I've worked on since last year that showcase my interest in software and design.
+        </p>
+        <div id="allProjects" class="flex flex-col items-center justify-center">
+          <!-- Sessamiprojects-->
+          
+      </div>
+      <!-- Page4  -->
+      <div
+        id="skills"
+        class="min-h-screen max-w-[1240px] mx-auto flex flex-col items-center justify-center"
+      >
+        <h1
+          class="w-full flex justify-center items-center text-5xl font-bold my-3"
+        >
+          Skills
+        </h1>
+        <p class="mt-8 mb-12 text-lg text-mutedtext">
+          Below are some tools/technologies that I use very often.
+        </p>
+        <div id="allSkills" class="flex flex-wrap items-center justify-center">
+          <div
+            title="HTML"
+            class="p-5 bg-black shadow-lg shadow-rose-400 m-5 rounded-full h-32 w-32 flex items-center justify-center hover:scale-105 transition duration-150 cursor-pointer"
+          >
+            <img src="/skills/1.png" alt="" class="h-20 w-20" />
+          </div>
+          <div
+            title="CSS"
+            class="p-5 bg-black shadow-lg shadow-blue-400 m-5 rounded-full h-32 w-32 flex items-center justify-center hover:scale-105 transition duration-150 cursor-pointer"
+          >
+            <img src="/skills/2.png" alt="" class="h-20 w-20" />
+          </div>
+          <div
+            title="Javascript"
+            class="p-5 bg-black shadow-lg shadow-yellow-400 m-5 rounded-full h-32 w-32 flex items-center justify-center hover:scale-105 transition duration-150 cursor-pointer"
+          >
+            <img src="/skills/3.png" alt="" class="h-20 w-20" />
+          </div>
+          <div
+            title="Tailwind CSS"
+            class="p-5 bg-black shadow-lg shadow-cyan-300 m-5 rounded-full h-32 w-32 flex items-center justify-center hover:scale-105 transition duration-150 cursor-pointer"
+          >
+            <img src="/skills/4.png" alt="" class="h-20 w-20" />
+          </div>
+          <div
+            title="Adobe Illustrator"
+            class="p-5 bg-black shadow-lg shadow-violet-500 m-5 rounded-full h-32 w-32 flex items-center justify-center hover:scale-105 transition duration-150 cursor-pointer"
+          >
+            <img src="/skills/5.png" alt="" class="h-20 w-20" />
+          </div>
+    
+          <div
+            title="Git"
+            class="p-5 bg-black shadow-lg shadow-red-400 m-5 rounded-full h-32 w-32 flex items-center justify-center hover:scale-105 transition duration-150 cursor-pointer"
+          >
+            <img src="/skills/7.png" alt="" class="h-20 w-20" />
+          </div>
+          <div
+            title="Github"
+            class="p-5 bg-black shadow-lg shadow-white m-5 rounded-full h-32 w-32 flex items-center justify-center hover:scale-105 transition duration-150 cursor-pointer"
+          >
+            <img src="/skills/8.png" alt="" class="h-20 w-20" />
+          </div>
+          <div
+            title="Figma"
+            class="p-5 bg-black shadow-lg shadow-blue-500 m-5 rounded-full h-32 w-32 flex items-center justify-center hover:scale-105 transition duration-150 cursor-pointer"
+          >
+            <img src="/skills/9.png" alt="" class="h-20 w-20" />
+          </div>
+          <div
+            title="VS-Code"
+            class="p-5 bg-black shadow-lg shadow-sky-500 m-5 rounded-full h-32 w-32 flex items-center justify-center hover:scale-105 transition duration-150 cursor-pointer"
+          >
+            <img src="/skills/10.png" alt="" class="h-20 w-20" />
+          </div>
+        </div>
+      </div>
+      <!-- Footer  -->
+      <footer
+        id="contact"
+        class="max-w-[1240px] mx-auto min-h-[50vh] flex flex-col-reverse lg:flex-row justify-center items-center"
+      >
+        <div
+          id="footInfo"
+          class="h-full w-full px-10 lg:w-1/2 lg:px-0 flex flex-col items-start justify-start"
+        >
+          <h1 class="text-4xl font-bold">Hey there!</h1>
+          <p class="text-xl my-3 text-mutedtext">
+            Like what you see?
+          </p>
+          <p class="text-lg text-mutedtext">
+            I'm eagerly seeking an internship opportunity where I can gain valuable experience and contribute to innovative projects. Whether it's a new project, a job opportunity, or just a chance to connect, I'm all ears. Let's discuss how I can be a valuable addition to your team.
+          </p>
+          <a
+            href="./public/resume.pdf"
+            download
+            class="text-mycolor text-lg my-3 hover:underline"
+            >Download my CV</a
+          >
+          <div
+            id="icons"
+            class="flex flex-row justify-center items-center text-gray-900"
+          >
+            <a
+              href="https://www.linkedin.com/in/aayushma-bhusal-4870aa265/"
+              target="_blank"
+              class="text-2xl bg-gray-500 p-3 mr-4 rounded-full hover:text-yellow-400 duration-300 h-10 w-10 flex items-center justify-center"
+              ><i class="ri-linkedin-box-fill"></i
+            ></a>
+            <a
+              href="https://github.com/aayushmabhusal8"
+              target="_blank"
+              class="text-2xl bg-gray-500 p-3 mx-4 rounded-full hover:text-yellow-400 duration-300 h-10 w-10 flex items-center justify-center"
+              ><i class="ri-github-fill"></i
+            ></a>
+            <a
+              href="mailto:aayushmab16@gmail.com"
+              target="_blank"
+              class="text-[22px] bg-gray-500 p-3 mx-4 rounded-full hover:text-yellow-400 duration-300 h-10 w-10 flex items-center justify-center"
+              ><i class="ri-mail-fill"></i
+            ></a>
+            <a
+              href="https://twitter.com/marla20093701"
+              target="_blank"
+              class="text-xl bg-gray-500 p-3 mx-4 rounded-full hover:text-yellow-400 duration-300 h-10 w-10 flex items-center justify-center"
+              ><i class="ri-twitter-x-line"></i
+            ></a>
+          </div>
+        </div>
+        <div
+          id="form"
+          class="h-full w-full lg:w-1/2 flex flex-col items-center justify-center px-20"
+        >
+          <h1 class="w-full text-4xl font-bold">Lets Connect</h1>
+          <form
+            action="https://getform.io/f/warkgmmb"
+            method="post"
+            class="flex flex-col justify-center items-center w-full text-black"
+          >
+            <input
+              class="border w-full p-2 my-1 rounded-md"
+              type="text"
+              placeholder="Enter your name"
+            />
+            <input
+              class="border w-full p-2 my-1 rounded-md"
+              type="email"
+              placeholder="Enter your email"
+            />
+            <textarea
+              class="border w-full p-2 my-1 rounded-md"
+              name="message"
+              placeholder="Enter your message"
+              id=""
+              cols="10"
+              rows="5"
+            ></textarea>
+            <button
+              type="submit"
+              class="bg-mycolor p-5 w-32 h-10 my-2 rounded-md text-black flex justify-center items-center"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </footer>
+      <div class="w-full h-12 flex items-center justify-center border-t">
+        All Rights Reserved © Aayushma Bhusal
+      </div>
+    </div>
+  </body>
+</html>
