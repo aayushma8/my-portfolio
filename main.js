@@ -5,17 +5,18 @@ import "remixicon/fonts/remixicon.css";
 const allProjects = document.getElementById("allProjects");
 
 const projectsArray = [
+  
   {
-    image: "/projects/image.png",
-    title: "Sessami Projects",
-    description: "This includes all the projects I did  during my traineeship at sessami.co",
-    techUsed: ["HTML", "CSS", "JS", "API"],
-    url: "https://aayushmabhusal8.github.io/Assignment1/",
-    githubUrl: "https://github.com/aayushmabhusal8/Assignment1",
+    image: "/projects/sessami.png",
+    title: "Project Lists",
+    description: "Frontend tasks list at Sessami.co",
+    techUsed: ["HTML", "CSS"],
+    url: "https://aayushma8.github.io/Assignment1/",
+    githubUrl: "https://github.com/aayushma8/Assignment1",
   },
   {
     image: "/projects/amazon.png",
-    title: "Amazon Cone",
+    title: "Amazon Clone",
     description: "Simple clone of amazon",
     techUsed: ["HTML", "CSS"],
     url: "https://theamazon.vercel.app/",
@@ -29,23 +30,39 @@ const projectsArray = [
     url: "https://thenetflixdemo.vercel.app/",
     githubUrl: "https://github.com/aayushmabhusal8/netflix-demo",
   },
+  {
+    image: "/projects/expenditure-tracker.png",
+    title: "Expenditure Tracker",
+    description: "Expenditure Tracker Using React",
+    techUsed: ["HTML", "CSS", "JS", "React"],
+    url: "https://react-expenditure-tracker.vercel.app/",
+    githubUrl: "https://github.com/aayushma8/React-Expenditure-Tracker",
+  },
+  {
+    image: "/projects/hackernewsapi.png",
+    title: "HackerNewsApi",
+    description: "HackerNewsApi Using React",
+    techUsed: ["HTML", "CSS", "JS", "React"],
+    url: "https://react-expenditure-tracker.vercel.app/",
+    githubUrl: "https://github.com/aayushma8/React-Expenditure-Tracker",
+  },
 ];
 
 // image, title, description, techUsed, url, githubUrl
 
 projectsArray.map(function (project) {
   const projectDiv = document.createElement("div");
-  projectDiv.innerHTML = `<div
-    class="flex flex-col lg:flex-row justify-center items-center w-full my-7"
+  projectDiv.innerHTML = `<div 
+    class="flex flex-col lg:flex-row justify-center items-center w-full my-7 "
   >
     <div
-      class="lg:mr-36 w-full lg:w-1/2 flex items-center justify-center"
+      class="lg:mr-36 w-full lg:w-1/2 flex items-center justify-center "
     >
       <a href='${project.url}' target="_blank">
         <img
           src='${project.image}'
           alt=""
-          class="w-[300px] lg:w-[450px] rounded-2xl hover:scale-110 duration-300 my-5 lg:my-0"
+          class="w-[300px] lg:w-[450px]  rounded-2xl hover:scale-110 duration-300 my-5 lg:my-0"
       /></a>
     </div>
     <div
