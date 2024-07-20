@@ -27,7 +27,7 @@ const projectsArray = [
     title: "Netflix Clone",
     description: "Responsive clone website of Netflix",
     techUsed: ["HTML", "CSS"],
-    url: "https://thenetflixdemo.vercel.app/",
+    url: "https://netflix-demo-sandy.vercel.app/",
     githubUrl: "https://github.com/aayushmabhusal8/netflix-demo",
   },
   {
