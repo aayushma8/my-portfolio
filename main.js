@@ -7,12 +7,12 @@ const allProjects = document.getElementById("allProjects");
 const projectsArray = [
   
   {
-    image: "/projects/image.png",
+    image: "/projects/sessami.png",
     title: "Sessami Projects",
-    description: "This includes all the projects I did  during my traineeship at sessami.co",
+    description: "Here is a list of projects at Sessami.co.",
     techUsed: ["HTML", "CSS", "JS", "API"],
-    url: "https://aayushmabhusal8.github.io/Assignment1/",
-    githubUrl: "https://github.com/aayushmabhusal8/Assignment1",
+    url: "https://aayushma8.github.io/Assignment1/",
+    githubUrl: "https://github.com/aayushma8/Assignment1",
   },
   {
     image: "/projects/amazon.png",
