@@ -43,8 +43,8 @@ const projectsArray = [
     title: "HackerNewsApi",
     description: "HackerNewsApi Using React",
     techUsed: ["HTML", "CSS", "JS", "React"],
-    url: "https://react-expenditure-tracker.vercel.app/",
-    githubUrl: "https://github.com/aayushma8/React-Expenditure-Tracker",
+    url: "https://hacker-news-api-react.vercel.app/",
+    githubUrl: "https://github.com/aayushma8/HackerNewsApi-React",
   },
 ];
 
