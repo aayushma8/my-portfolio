@@ -5,7 +5,14 @@ import "remixicon/fonts/remixicon.css";
 const allProjects = document.getElementById("allProjects");
 
 const projectsArray = [
-  
+  {
+    image: "/projects/realestate.png",
+    title: "Real Estate Website",
+    description: "Fully Responsive Real Estate Website",
+    techUsed: ["HTML", "CSS", "JS"],
+    url: "https://real-estate-responsive-website.vercel.app/",
+    githubUrl: "https://github.com/aayushma8/Real-estate-responsive-website",
+  },
   {
     image: "/projects/sessami.png",
     title: "Sessami Projects",
@@ -128,6 +135,5 @@ menuList.map(function (element) {
   element.addEventListener("click", function () {
     hamburgermenu.classList.remove("showMenu");
     hamburgerbtn.innerHTML = '<i class="ri-menu-line"></i>';
-
   });
 });
