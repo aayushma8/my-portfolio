@@ -6,6 +6,14 @@ const allProjects = document.getElementById("allProjects");
 
 const projectsArray = [
   {
+    image: "/projects/baniya.png",
+    title: "Construction Website",
+    description: "Fully Responsive Baniya Construction Website",
+    techUsed: ["HTML", "CSS", "JS", "Next.js"],
+    url: "https://baniya-construction.vercel.app/",
+    githubUrl: "https://github.com/aayushma8/Baniya-Construction",
+  },
+  {
     image: "/projects/realestate.png",
     title: "Real Estate Website",
     description: "Fully Responsive Real Estate Website",
